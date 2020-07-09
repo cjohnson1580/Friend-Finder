@@ -1,25 +1,14 @@
-console.log('HTML Route Connected Successfully');
-
-
-// Node Dependencies
-var path = require('path');
-
-
-// Includes Two Routes
-function htmlRoutes(app) {
-
-  // A GET Route to /survey which should display the survey page.
-  app.get('/survey', function (req, res) {
-    res.sendFile(path.join(__dirname + '/../public/survey.html'));
+module.exports = function(app) {
+  // Load survey page
+  app.get("/survey", function(req, res) {
+      // res.render("survey");
+      res.sendFile('survey.html', { root: './app/public' });
   });
 
-  // A default USE route that leads to home.html which displays the home page.
-  app.use(function (req, res) {
-    res.sendFile(path.join(__dirname + '/../public/home.html'));
+
+  // Render home.html page page for any unmatched routes
+  app.get("*", function(req, res) {
+  //   res.render("home");
+  res.sendFile('home.html', { root: './app/public' });
   });
-
-}
-
-
-// Export for use in main server.js file
-module.exports = htmlRoutes;
+};

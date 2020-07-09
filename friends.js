@@ -2,7 +2,7 @@ var friendsData = [
     {
       name: "Iron Man",
       photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQritLTZNaj1mZHMSmLwroZb4tvKaAs-E81eA&usqp=CAU",
-      scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
+      scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     },
     {
       name: "Thor",
@@ -13,7 +13,8 @@ var friendsData = [
       name: "Captain America",
       photo:"https://www.goliath.com/wp-content/uploads/2016/05/Captain-America.jpg",
       scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    },
+    }
+    
     ];
 
 
