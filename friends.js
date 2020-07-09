@@ -5,8 +5,8 @@ var friendsData = [
       scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     },
     {
-      name: "Black Widow",
-      photo:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRT_U3T769m0JV9DuYuGPecf_nfuP3CIzkLww&usqp=CAU",
+      name: "Thor",
+      photo:"https://cdn.britannica.com/73/182873-050-E1C686F4/Chris-Hemsworth-Thor-Thor-The-Dark-World.jpg",
       scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     },
     {
